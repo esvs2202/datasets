@@ -15,6 +15,8 @@
 
 """Testing utilities."""
 
+from absl import flags
+
 from tensorflow_datasets.testing.dataset_builder_testing import DatasetBuilderTestCase
 from tensorflow_datasets.testing.feature_test_case import FeatureExpectationItem
 from tensorflow_datasets.testing.feature_test_case import FeatureExpectationsTestCase
@@ -60,3 +62,4 @@ __all__ = [
     "MockPolicy",
     "rm_tmp_dir",  # TODO(afrozm): rm from here and add as methods to TestCase
 ]
+
